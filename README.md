@@ -1,4 +1,4 @@
-# 🦺 PPE Detection with YOLOv8
+# PPE Detection with YOLOv8
 
 This project implements a real-time PPE (Personal Protective Equipment) detection system to monitor safety compliance in industrial environments. Using a fine-tuned YOLOv8 model, the system detects individuals wearing helmets and vests and alerts when safety gear is missing.
 
