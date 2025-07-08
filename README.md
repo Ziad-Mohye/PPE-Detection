@@ -4,7 +4,7 @@ This project implements a real-time PPE (Personal Protective Equipment) detectio
 
 ---
 
-## 📌 Features
+## Features
 
 - Detects key PPE: **helmets** and **vests**
 - Identifies missing gear in real-time from live camera feeds
@@ -14,7 +14,7 @@ This project implements a real-time PPE (Personal Protective Equipment) detectio
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: Captured in industrial-like settings
 - **Classes**: `person`, `helmet`, `vest`
@@ -27,7 +27,7 @@ This project implements a real-time PPE (Personal Protective Equipment) detectio
 
 ---
 
-## 🧠 Model Training
+## Model Training
 
 - Fine-tuned a pre-trained **YOLOv8s** model on the custom dataset
 - Training conducted for 50 epochs with 640×640 resolution
@@ -36,7 +36,7 @@ This project implements a real-time PPE (Personal Protective Equipment) detectio
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 | Metric     | Result (approx.) |
 |------------|------------------|
@@ -49,7 +49,7 @@ This project implements a real-time PPE (Personal Protective Equipment) detectio
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 - Model deployed for real-time inference using a webcam feed
 - Integrated with **OpenCV** for video streaming and annotation
@@ -58,7 +58,7 @@ This project implements a real-time PPE (Personal Protective Equipment) detectio
 
 ---
 
-## 🖥️ System Requirements
+## System Requirements
 
 - Python 3.8+
 - YOLOv8 (Ultralytics)
